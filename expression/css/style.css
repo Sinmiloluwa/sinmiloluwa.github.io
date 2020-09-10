@@ -1,0 +1,289 @@
+.line-mf{
+	height: 5px;
+	width: 60px;
+	margin: 0 auto;
+	background: blue;
+	margin-bottom: 80px
+}
+
+.carousel{
+	height: 60vh
+}
+
+#recent img{
+    position: relative;
+}
+
+.layer{
+	
+	position: absolute;
+	width: 60%;
+	padding: 0;
+	left: 70px;
+	bottom: -27px
+}
+
+.layer p{
+    background: grey;
+    border:2px solid white;
+}
+
+
+
+#blog{
+	margin-top: 45px;
+
+}
+
+
+
+#blog .card-body{
+	position: relative;
+     border: 1px solid #e0e5fa;
+  background: #fff;
+  margin-bottom: 30px;
+  display: inline-block;
+
+}
+
+.cardo{
+	margin-top: 60px
+}
+
+
+
+.card-body .card-overlay{
+	position: absolute;
+  text-align: center;
+  top: -16px;
+  left: 15px;
+  right: 15px;
+  line-height: 25px;
+  overflow: hidden;
+}
+
+.card-body .card-overlay .overlay{
+	display: inline-block;
+  color: #fff;
+  padding: 0 15px 5px;
+  overflow: hidden;
+  background-color: #0078ff;
+  border-radius: 4px;
+}
+
+
+.card:hover .card-img img{
+	-webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.card-img {
+	
+	overflow: hidden;
+}
+
+.card-img img{
+	transition: 0.3s ease-in-out
+}
+
+#items{
+	background: url(../img/architecture-blur-bokeh-240225.jpg);
+	background-size: cover;
+	height: 60vh
+}
+
+.items-content{
+	font-size: 5rem;
+	color: white;
+	text-align: center;
+	padding-top: 135px;
+    opacity: 0.5
+}
+
+.items-content h1{
+	font-size: 17rem;
+}	
+#main-blog{
+	margin-top: 50px
+}
+
+.card-body .card-overlays{
+	position: absolute;
+  text-align: center;
+  top: 223px;
+  left: 15px;
+  right: 15px;
+  line-height: 25px;
+  overflow: hidden;
+}
+
+.card-body .card-overlays .overlays{
+	display: inline-block;
+  color: white;
+  padding: 0 15px 5px;
+  overflow: hidden;
+  background-color: #0078ff;
+  border-radius: 4px;
+}
+
+.blog-wrapper .post-meta ul,
+.box-comments .list-comments,
+.widget-sidebar .list-sidebar,
+.widget-tags ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.intro-single .breadcrumb {
+  background-color: transparent;
+  color: #0078ff;
+}
+
+.intro-single .breadcrumb .breadcrumb-item:before {
+  color: #cde1f8;
+}
+
+.intro-single .breadcrumb .breadcrumb-item.active {
+  color: #cde1f8;
+}
+
+.intro-single .breadcrumb a {
+  color: #fff;
+}
+
+/*======================================
+//--//-->   BLOG-SINGLE
+======================================*/
+
+.post-box,
+.form-comments,
+.box-comments,
+.widget-sidebar {
+  padding: 2rem;
+  background-color: #fff;
+  margin-bottom: 3rem;
+}
+
+.blog-wrapper .article-title {
+  font-size: 1.5rem;
+}
+
+.blog-wrapper .post-meta {
+  margin: 1rem 0;
+}
+
+.blog-wrapper .post-meta ul {
+  border-left: 4px solid #0078ff;
+  margin-top: 1rem;
+}
+
+.blog-wrapper .post-meta ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.blog-wrapper .post-meta ul a {
+  color: #0078ff;
+}
+
+.blog-wrapper .post-meta ul span {
+  color: #1e1e1e;
+}
+
+.blog-wrapper .blockquote {
+  border-left: 4px solid #0078ff;
+  padding: 18px;
+  font-style: italic;
+}
+
+/*------/ Comments /------*/
+
+.box-comments .list-comments li {
+  padding-bottom: 40px;
+}
+
+.box-comments .list-comments .comment-avatar {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.box-comments .list-comments .comment-avatar img {
+  width: 80px;
+  height: 80px;
+}
+
+.box-comments .list-comments .comment-author {
+  font-size: 1.3rem;
+}
+
+.box-comments .list-comments .comment-details {
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 25px;
+}
+
+.box-comments .list-comments a {
+  color: #0078ff;
+}
+
+.box-comments .list-comments span {
+  color: #1e1e1e;
+  font-style: italic;
+}
+
+.box-comments .comment-children {
+  margin-left: 40px;
+}
+
+/*------/ Sidebar /------*/
+
+.widget-sidebar .sidebar-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-left: 5px solid #0078ff;
+  padding-left: 15px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.widget-sidebar .list-sidebar li {
+  position: relative;
+  padding: 6px 0 6px 24px;
+}
+
+.widget-sidebar .list-sidebar li:before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 1px;
+  left: 0;
+  background-color: #0078ff;
+  top: 20px;
+}
+
+.sidebar-search input {
+  background-color: #fff;
+  border-radius: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.sidebar-search .btn-search {
+  background-color: #0078ff;
+  border-color: #0078ff;
+  border-radius: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.widget-tags ul li {
+  display: inline-block;
+  background-color: #0078ff;
+  padding: .2rem .6rem;
+  margin-bottom: .5rem;
+  border-radius: 15px;
+}
+
+.widget-tags ul li a {
+  color: #fff;
+}

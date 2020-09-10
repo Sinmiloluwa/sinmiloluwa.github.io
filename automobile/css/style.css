@@ -1,0 +1,101 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.line-mf{
+	width: 60px;
+	height: 5px;
+	background: #fbc02d;
+	margin: 0 auto;
+}
+
+#header{
+	background:url(../img/cars/2.jpg);
+	background-size: cover;
+	height: 100vh
+}
+
+#header h1{
+	padding-top: 400px
+}
+
+#header input{
+	padding-top: .5rem;
+	padding-bottom: .6rem;
+	background: transparent;
+	border:2px solid #fbc02d!important ;
+	width: 50%;
+	color: black
+}
+
+#header input,a{
+	margin-top: 30px
+}
+
+/*about*/
+
+#about{
+	padding-top: 40px;
+
+}
+
+.about-details h1{
+	font-size: 5rem;
+	color: #1c2331
+}
+
+.about-details p{
+	
+	font-size: 2rem;
+	text-align: center;
+}
+#about i{
+	font-size: 5rem;
+	color: #1c2331;
+	position: relative;
+	animation: myframes 2s ease-in-out 0s infinite;
+	padding-left: 260px
+}
+
+.about-content h3{
+	text-align: center;
+	font-size: 3rem
+}
+
+.about-content p{
+	font-size: 1rem;
+	text-align: center;
+}
+.line-mf{
+    animation: myframes 2s ease-in-out 0s infinite
+}
+
+.box{
+	width: 100px;
+	height: 150px;
+	background: #cb3131;
+	border-radius: 25% 0 25%;
+	color: white;
+	position: relative;
+}
+
+
+@keyframes myframes{
+	0%{
+		margin: 0 auto
+	}
+
+	100%{
+		width: 130px
+	}
+}
+
+.letters{
+	letter-spacing: 4.5px;
+	font-size: 3.5rem;
+	padding-top: 200px;
+	padding-left: 50px;
+	width: 300px
+}
