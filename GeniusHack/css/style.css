@@ -1,0 +1,334 @@
+body{width:100%;
+	 height: 100%;
+     overflow-x: hidden;
+     margin: 0;
+     padding: 0
+}
+
+.container{width:100%;
+           background-color: white;
+           overflow-x: hidden;
+           margin: 0;
+           padding: 0
+}
+/*************
+header
+**************/
+.header{
+	    height:100px;
+	    background:#252a51;
+
+}
+
+.logo{float: left;
+      height: 100px
+}
+.logo img{height: 90px;
+          margin-left: 40px
+}
+
+nav{margin-left: 700px;
+     float: right;
+     margin-top: 20px
+}
+
+nav li{display: inline;}
+nav li a{text-decoration: none;
+          color: #fff;
+          font-family: monospace;
+          font-size: 15px;
+          margin-left: 40px
+
+}
+nav li a:hover{color: blue}
+
+nav li a .selected{color: green}
+
+/*******************
+main
+/*******************/
+.main{width: 100%;
+      overflow: hidden;  
+      padding: 0;
+      margin: 0 ;
+      margin-bottom: 40px  
+}
+
+.main img{width:100%;
+          height: 540px;
+          position: absolute;
+          background-size: cover;
+          
+
+}
+
+.text h3{position: relative;
+         font-family: 'Bitter', serif;
+         font-size: 50px;
+         margin-left: 100px;
+         color:#f19330
+}
+
+
+.text h4{position: relative;
+         color: white;
+         margin-top: 50px;
+         margin-left: 100px
+}
+
+.text button{position: relative;
+             background: transparent;
+             border-color:#5cad33;
+             border-radius: 9px;
+             margin-left: 100px;
+             color: white;
+             size: 30px;
+             margin-top: 90px;
+             margin-bottom: 60px
+             font-size: 15px;
+             border-top-width: 2px;
+             border-bottom-width: 2px;
+             border-left-width: 2px;
+             border-image-width: 2px;
+             padding: 5px 7px;
+             text-align: center;
+}
+
+.text button a{text-decoration: none;
+               color: #eea628
+}
+
+.text button a:hover{background: #eea628}
+/**************
+content
+/**************/
+.content{background: white;
+         margin-top: 150px
+}
+.box{float: left;}
+
+.box h2{margin-left: 50px;
+        color:maroon;
+        margin-top: 36px;
+        width: 400px;
+        text-align: center;
+        font-family: serif;
+        border-bottom: 2px solid grey;
+        padding-bottom: 15px;
+        font-size: 50px;
+        letter-spacing: -2px
+}
+.box p{margin-left: 50px;
+        color:grey;
+        margin-top: 20px;
+        width: 400px;
+        text-align: center;
+        font-family: serif;
+        text-align: center;
+        line-height: 25px;
+        font-weight: 5px
+}
+
+.images{float: right;
+	    margin-right: 200px;
+	    margin-top: 150px
+}
+
+.images li{display: inline;
+           margin-left: 20px
+}
+.content2{text-align: center;
+          background: #6ec1e4;
+          height: 400px
+}
+
+.content2 h4{text-align: center;
+          font-family: 'Josefin Sans', cursive;
+          font-size: 50px;
+          color: #14262d;
+          letter-spacing: -3px;
+          padding-top: 120px;
+          font-style: italic;
+          f
+
+
+}
+.content2 p{text-align: center;
+            font-family: arial;
+            line-height: 35px;
+            font-size: 15px ;
+            letter-spacing: 0.1px;
+            padding-top:0
+
+
+}
+.jab{text-align: center;
+     font-family: arial;
+     font-size: 20px;
+     padding-top: 5px;
+     color: #14262d
+}
+.boxes{width: 100%;
+       margin-top: 100px
+}
+.image img{display:inline-block;
+            width: 250px;
+            height: 150px;
+            margin-right: 70px;
+            margin-left: 110px;
+            margin-bottom: 0px
+}
+.image div{text-align: center;
+           display: inline-block;
+           margin: 0
+}
+.image h2{text-align: center;
+          padding-top: 15px;
+          margin-bottom: 50px;
+          font-family: arial;
+}
+
+.content3
+           {height: 400px;
+               background-size:contain;
+               width: 100%;
+               position: absolute;
+               background-color: #6ec1e4;
+               margin-top: 25px;
+
+               
+}
+.cont h3{color:#14262d;
+         font-family: cursive;
+         position: relative;
+         margin-left:500px;
+         font-size: 40px;
+
+}
+
+
+/********************
+form
+/********************/
+
+.form{margin-top:350px;
+	  width: 800px
+}
+
+.form h3{margin-left: 40px;
+         color:#14262d;
+         font-family: sans-serif;
+}
+.form1{margin-top:450px}
+
+.form1 h3{margin-left: 40px;
+         color:#14262d;
+         font-family: sans-serif;
+}
+ form li{margin-bottom: 20px;
+         list-style: none;
+ }
+
+ label{display: block;
+       color: black;
+ }
+
+ textarea{width: 200px;
+          height:100px;}
+
+/***************
+section
+****************/          
+
+section {width: 100%;
+         min-width: 250px;
+         background: white;
+         margin: auto;
+         margin-top: 50px;
+}
+section div{margin-top: 50px}
+
+
+
+section .fun{margin-top: 50px} 
+
+section .bank{margin-top: 50px}
+
+.section{width: 80%;
+         margin: auto;
+         min-width: 250px;
+}
+.section img{margin:auto;}
+
+.section p{margin: auto;
+           font-family: sans-serif;
+           line-height: 25px
+}
+
+.section h4{font-family: helvetica}
+
+.cyber-crypto{width: 80%;
+
+}
+
+
+.text1{width: 500px}
+
+.cyber{width: 35%;
+	   float: left;
+	   margin-right: 140px
+}
+
+.crypto{width: 35%;
+	    float: right;
+}
+
+.fin-fin{width: 80%}
+
+.ter{width: 35%;
+	   margin-right: 140px;
+      float: left;
+	}
+
+.bank{width: 35%;
+	    float: right;
+	    margin: auto;
+	}
+
+.finesse{width: 80%}
+
+.fon{width: 35%;
+     float: left;
+     margin-right: 140px;
+}
+.fen{width: 35%;
+     float: right;
+}
+
+.finer{width: 80%}
+
+.fin{width: 35%;
+	   margin-right: 140px;
+      float: left;}
+
+.fun{width: 35%;
+	    float: right;
+	    margin: auto;
+	}
+
+/**************
+footer
+***************/
+footer{background: white;
+       margin-bottom: 0
+}
+
+footer h5{color:black;
+          text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 700px) {
+
+}

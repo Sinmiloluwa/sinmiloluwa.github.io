@@ -1,0 +1,532 @@
+body{
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4
+}
+
+/* Global */
+
+
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ ul{
+	margin: 0;
+	padding: 0
+}
+
+/* header  **/
+
+header{background: #313554;
+       color: #fff;
+       padding-top: 12px;
+       min-height: 70px;
+
+}
+
+header a{
+	color: #ffffff;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+
+
+header li{
+	float: left;
+	padding: 0 12px 0 12px;
+	display: inline;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+    margin: 0
+}
+
+header img{
+	width: 100px;
+	height: 100px;
+    margin: 0;
+
+}
+
+header nav{
+	float: right;
+	margin-top: 30px
+}
+
+
+header .highlight, header .current a{
+	color:#f50a0a;
+	font-weight: bold;
+}
+
+header a{
+	color: #7aa3c1
+}
+
+header a:hover{
+	color: grey;
+	font-weight: bold;
+}
+
+/* Showcase**/
+#showcase{
+	min-height: 400px;
+	background:url('../img/back.jpg')  no-repeat 0 -340px;
+	background-size: cover;
+}
+
+#showcase h1{
+	margin-top: 80px;
+	font-size: 50px;
+	margin-bottom: 0;
+	padding-top: 30px;
+	color: #7aa3c1;
+	font-family:Sans-serif;
+
+}
+
+#showcase h2{
+	color: black;
+	margin-top:0px;
+	padding-top: 7px;
+	padding-bottom: 40px
+	font-size: 40px;
+	font-family: "Poppins", Sans-serif;
+
+}
+ 
+#showcase p{
+	font-size: 20px;
+	color: black;
+	padding-top: 35px;
+	padding-bottom: 100px;
+	font-family: "Poppins", Sans-serif;
+} 
+
+#showcase p .ind{
+	text-align: center;	
+
+}
+
+.btn{
+	padding-bottom: 100px
+}
+
+.btn button{
+    border-radius: 10px;
+    border-color: #7aa3c1;
+    border-width: 3px;
+    background-color: transparent;
+    padding: 0px 12px 0px 12px;
+    border-style: solid;
+}
+
+.btn p button a{
+	text-decoration: none;
+	color: #7aa3c1;
+	
+
+}
+
+button:hover{background-color: #e1e6ea;
+	
+	}
+
+/* Mission **/
+
+#mission{min-height: 400px;
+         margin-bottom: 20px ;
+         margin-top: 40px       
+}
+
+#mission h3{
+	font-size: 40px;
+	color: #7aa3c1;
+	text-align: center;
+	margin-bottom: 20px	;
+	padding-bottom: 30px;
+	font-family: 'Josefin+sans', sans-serif
+}
+
+#mission hr{
+	width:40%;
+	margin-bottom: 10px;
+	size: 2px;
+
+}
+
+#mission .mission{
+	float: left;
+	width: 40%;
+	text-align: center;
+}
+.mission p{color: grey;
+           margin-top: 30px
+}
+
+#mission .img{
+	display: inline-block;
+}
+
+#image{
+     margin-top: 150px;
+     padding-left: 20px
+
+}
+
+#image img{
+	padding: 0 8px 0 8px;
+	float: left;
+}
+.img{float: right;}
+
+/*Testimony **/
+
+#testimony{
+	background-color:#3a5365;
+	min-height: 400px;
+	text-align: center;
+	margin: auto;
+	line-height: 1.6
+}
+
+#testimony h4{
+	text-align: center;
+	color: #7aa3c1;
+	margin-top: 80px;
+	font-family: 'Satisfy', cursive;
+	font-size: 50px
+}
+
+#testimony h3{
+	color: #7aa3c1;
+	margin-top: 60px
+}
+
+#testimony p{
+	color: grey
+}
+
+
+/** boxes **/
+
+#boxes{
+	margin-top: 70px
+}
+
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px
+}
+
+#boxes .box img{
+	width:250px;
+	height: 150px;
+
+}
+
+#boxes .box h3{
+	font-size: 19px
+}
+
+/** slide **/
+
+#slide{
+   min-height: 400px;
+   text-align: center;
+   background-color: #191818;
+   
+}
+
+#slide h3{
+	color: #7aa3c1;
+	margin-top: 60px;
+	font-size: 30px;
+	font-family: 'Bitter', sans-serif
+}
+#slide p{
+	color: white;
+  }
+         
+.carousel-inner img {
+      width: 50%;
+      height: 100%;
+      margin: auto;
+  }
+
+/** form **/
+
+#form{
+	min-height: 400px;
+	padding-left: 250px;
+}
+
+
+
+#form h3{
+	color: #7aa3c1;
+	margin-top: 10px;
+	font-size: 40px;
+	padding-top: 30px
+
+
+}
+
+#form .space{
+	margin-bottom: 20px;
+         list-style: none;
+        
+}
+
+.space label{display: block;
+       color: black;
+ }
+
+.space input{
+	height: 25px;
+
+}
+
+.space input[type="submit"]{
+	border:1px solid #ddd
+}
+ .space textarea{width: 30%;
+          height:150px;
+ }
+
+ .info{
+ 	margin-top: 2px;
+ }
+
+ .info img{
+ 	float: left;
+ }
+
+ .info p{
+ 	color: #7aa3c1;
+ }
+
+ .info p a{
+ 	text-decoration: none;
+ 	color: #7aa3c1;
+ 	margin-left: 6px
+ }
+
+ /** article **/
+
+
+ #article{
+ 	min-height: 400px;
+    margin-top: 30px    
+ }
+
+ #article .content{
+ 	float: left;
+ 	width: 45%;
+ 	padding: 15px
+ }
+
+  
+
+/** about **/
+
+
+
+ #about{
+ 	min-height:400px;
+ 	margin-bottom: 80px
+
+ }
+
+
+#about .genius{
+	float: left;
+	width: 37%;
+	margin-top: 50px
+	
+}
+
+#about img{
+	width: 400px;
+	height: 400px
+}
+
+ #abt{
+ 	 	text-align: center;
+ 	overflow: hidden;
+ }
+
+#abt h3{
+	padding-top: 150px;
+	font-size: 40px;
+	color: #7aa3c1
+}
+
+#abt p{
+	text-align: center;
+	padding-bottom: 30px;
+	margin-top: 30px;
+	background-color: #3a5365;
+	padding-top: 30px;
+	
+}
+
+ /** footer **/
+ footer{
+ 	padding: 10px;
+ 	margin-top: 10px;
+ 	text-align: center;
+ 	background-color: #313554
+ }
+
+ footer p{
+ 	color: #7aa3c1;
+ 	background-color: #313554
+ }
+
+
+/** Media Queries**/
+@media(max-width: 768px){
+
+    header #branding,
+    header nav,
+    header nav li,
+    #mission .mission,
+    #boxes .box,
+    #article .content,
+    #about .genius
+    {
+    	float:none;
+    	text-align: center;
+    	width: 100%
+    }
+
+   header{
+   	padding-bottom: 20px
+   }
+
+   #showcase h1{
+   	display: none;
+
+   	min-height: 400px
+   }
+
+   #showcase h2{
+   	display: none;
+   }
+
+   #showcase p{
+   	
+   	text-align: center;
+   	font-size: 15px;
+   	padding-bottom: 0
+   }
+
+   #showcase{
+   	background:url('../img/back.jpg') no-repeat;
+	background-size: contain;
+    text-align: center;
+
+}
+ 
+
+   .btn button{
+   text-align: center;
+   padding-top: -50px
+   
+   }
+
+   #mission{
+   	margin-top: -80px
+   }
+
+   #mission hr{
+   	width: 20%;
+
+   }
+
+   #image{
+   	display: none;
+   }
+
+   #slide p{
+   	width: 50%;
+   	margin:auto;
+   	line-height: 1.8
+
+   }
+
+   #form h3{
+   	text-align: center;
+   }
+
+   #form form input{
+   	width: 98%
+   }
+
+   #form textarea{
+   	width: 98%
+   }
+
+   #form form input[type="submit"]{
+   
+   	margin-top: 10px
+   }
+
+   .info{
+   	margin: auto;
+   }
+
+   #about img{
+   	display: none;
+   }
+
+   #about .genius{
+   	margin-top: 0px;
+
+   }
+   
+   #about h3{
+   	padding-top: 20px
+   }
+
+   .imager img{
+padding: 0
+margin:0;
+  	
+  }
+   
+
+}
+
+
+@media(width: 1024px){
+	#showcase h1{
+		display: none;
+	}
+}
+
+
+@media(width: 768px){
+	#mission h3{
+		margin-top: 100px
+	}
+
+	#showcase{
+		background-size: cover;
+	}
+}
